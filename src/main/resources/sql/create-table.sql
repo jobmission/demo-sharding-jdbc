@@ -1,7 +1,7 @@
 CREATE TABLE `order_entity_0` (
   `order_id` bigint(20) NOT NULL,
   `user_id` bigint(20) NOT NULL,
-  `total_amout` decimal(10,2) DEFAULT NULL COMMENT '订单金额',
+  `total_amount` decimal(10,2) DEFAULT NULL COMMENT '订单金额',
   `date_created` datetime DEFAULT NULL,
   `last_modified` datetime DEFAULT NULL,
   `record_status` int(11) DEFAULT '0',
@@ -16,7 +16,7 @@ CREATE TABLE `order_entity_0` (
 CREATE TABLE `order_entity_1` (
   `order_id` bigint(20) NOT NULL,
   `user_id` bigint(20) NOT NULL,
-  `total_amout` decimal(10,2) DEFAULT NULL COMMENT '订单金额',
+  `total_amount` decimal(10,2) DEFAULT NULL COMMENT '订单金额',
   `date_created` datetime DEFAULT NULL,
   `last_modified` datetime DEFAULT NULL,
   `record_status` int(11) DEFAULT '0',

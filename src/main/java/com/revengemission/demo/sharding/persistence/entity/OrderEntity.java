@@ -9,7 +9,7 @@ public class OrderEntity implements Serializable {
 
     private Long userId;
 
-    private BigDecimal totalAmout;
+    private BigDecimal totalAmount;
 
     private Date dateCreated;
 
@@ -43,12 +43,12 @@ public class OrderEntity implements Serializable {
         this.userId = userId;
     }
 
-    public BigDecimal getTotalAmout() {
-        return totalAmout;
+    public BigDecimal getTotalAmount() {
+        return totalAmount;
     }
 
-    public void setTotalAmout(BigDecimal totalAmout) {
-        this.totalAmout = totalAmout;
+    public void setTotalAmount(BigDecimal totalAmount) {
+        this.totalAmount = totalAmount;
     }
 
     public Date getDateCreated() {
