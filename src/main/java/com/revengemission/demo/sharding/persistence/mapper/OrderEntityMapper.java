@@ -2,10 +2,11 @@ package com.revengemission.demo.sharding.persistence.mapper;
 
 import com.revengemission.demo.sharding.persistence.entity.OrderEntity;
 import com.revengemission.demo.sharding.persistence.entity.OrderEntityExample;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+@Mapper
 public interface OrderEntityMapper {
     long countByExample(OrderEntityExample example);
 

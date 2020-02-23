@@ -13,7 +13,7 @@ public class OrderEntityExample {
     protected List<Criteria> oredCriteria;
 
     public OrderEntityExample() {
-        oredCriteria = new ArrayList<Criteria>();
+        oredCriteria = new ArrayList<>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -70,7 +70,7 @@ public class OrderEntityExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<Criterion>();
+            criteria = new ArrayList<>();
         }
 
         public boolean isValid() {
@@ -226,63 +226,63 @@ public class OrderEntityExample {
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutIsNull() {
-            addCriterion("total_amout is null");
+        public Criteria andTotalAmountIsNull() {
+            addCriterion("total_amount is null");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutIsNotNull() {
-            addCriterion("total_amout is not null");
+        public Criteria andTotalAmountIsNotNull() {
+            addCriterion("total_amount is not null");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutEqualTo(BigDecimal value) {
-            addCriterion("total_amout =", value, "totalAmout");
+        public Criteria andTotalAmountEqualTo(BigDecimal value) {
+            addCriterion("total_amount =", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutNotEqualTo(BigDecimal value) {
-            addCriterion("total_amout <>", value, "totalAmout");
+        public Criteria andTotalAmountNotEqualTo(BigDecimal value) {
+            addCriterion("total_amount <>", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutGreaterThan(BigDecimal value) {
-            addCriterion("total_amout >", value, "totalAmout");
+        public Criteria andTotalAmountGreaterThan(BigDecimal value) {
+            addCriterion("total_amount >", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutGreaterThanOrEqualTo(BigDecimal value) {
-            addCriterion("total_amout >=", value, "totalAmout");
+        public Criteria andTotalAmountGreaterThanOrEqualTo(BigDecimal value) {
+            addCriterion("total_amount >=", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutLessThan(BigDecimal value) {
-            addCriterion("total_amout <", value, "totalAmout");
+        public Criteria andTotalAmountLessThan(BigDecimal value) {
+            addCriterion("total_amount <", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutLessThanOrEqualTo(BigDecimal value) {
-            addCriterion("total_amout <=", value, "totalAmout");
+        public Criteria andTotalAmountLessThanOrEqualTo(BigDecimal value) {
+            addCriterion("total_amount <=", value, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutIn(List<BigDecimal> values) {
-            addCriterion("total_amout in", values, "totalAmout");
+        public Criteria andTotalAmountIn(List<BigDecimal> values) {
+            addCriterion("total_amount in", values, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutNotIn(List<BigDecimal> values) {
-            addCriterion("total_amout not in", values, "totalAmout");
+        public Criteria andTotalAmountNotIn(List<BigDecimal> values) {
+            addCriterion("total_amount not in", values, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("total_amout between", value1, value2, "totalAmout");
+        public Criteria andTotalAmountBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("total_amount between", value1, value2, "totalAmount");
             return (Criteria) this;
         }
 
-        public Criteria andTotalAmoutNotBetween(BigDecimal value1, BigDecimal value2) {
-            addCriterion("total_amout not between", value1, value2, "totalAmout");
+        public Criteria andTotalAmountNotBetween(BigDecimal value1, BigDecimal value2) {
+            addCriterion("total_amount not between", value1, value2, "totalAmount");
             return (Criteria) this;
         }
 
@@ -728,7 +728,6 @@ public class OrderEntityExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
-
         protected Criteria() {
             super();
         }

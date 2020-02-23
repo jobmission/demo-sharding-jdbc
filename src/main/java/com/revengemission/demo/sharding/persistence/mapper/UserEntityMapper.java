@@ -2,10 +2,11 @@ package com.revengemission.demo.sharding.persistence.mapper;
 
 import com.revengemission.demo.sharding.persistence.entity.UserEntity;
 import com.revengemission.demo.sharding.persistence.entity.UserEntityExample;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+@Mapper
 public interface UserEntityMapper {
     long countByExample(UserEntityExample example);
 
